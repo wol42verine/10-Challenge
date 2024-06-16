@@ -11,7 +11,7 @@ function modifySVG(shapeFilename, logoColor, logoText, textColor) {
     // Find the position to insert the text and rectangle before </svg>
     const insertIndex = svgContent.indexOf('</svg>');
 
-    // Modify the SVG content to fill with the specified color
+    // Modify the SVG content to fill with the specified color and text
     svgContent = svgContent.slice(0, insertIndex) +
         `<rect width="100%" height="100%" fill="${logoColor}" />\n` + // Add rectangle for background color
         `<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="${textColor}">${logoText}</text>` + // Add text
@@ -62,3 +62,8 @@ inquirer.prompt(prompts)
     .catch(error => {
         console.error('Error occurred during prompts:', error);
     });
+
+// Export modifySVG function for testing or potential reuse
+module.exports = {
+    modifySVG,
+};

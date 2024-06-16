@@ -16,5 +16,5 @@ describe('modifySVG function', () => {
         expect(modifiedSVG).toContain(`<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="${textColor}">${logoText}</text>`);
     });
 
-   //Here I'll add more
+    // Add more test cases as needed
 });
