@@ -1,0 +1,17 @@
+# Compiled output
+
+# Removed dist, as per instructions
+# dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
