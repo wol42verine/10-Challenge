@@ -25,4 +25,4 @@ Text: Enter the text you want to add to your logo.
 Text Color: Enter the color for the text in your logo (e.g., white, black).
 Once you've completed the prompts, the application will generate an SVG file with your specified logo.
 
-![Demo Animation](https://example.com/path/to/your/animation.gif)
+![Demo Animation](Challenge-10.mp4)
