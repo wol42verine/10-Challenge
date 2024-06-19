@@ -1,4 +1,11 @@
 {
+  "name": "logo-generator",
+  "version": "1.0.0",
+  "description": "A backend app to generate SVG logos based on user input",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "inquirer": "^8.2.4",
     "svg-builder": "^2.0.0"
@@ -6,4 +13,6 @@
   "devDependencies": {
     "jest": "^29.7.0"
   }
+  
 }
+
